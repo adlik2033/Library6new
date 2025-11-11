@@ -1,0 +1,25 @@
+﻿using Library6;
+using System;
+
+Console.WriteLine("Практика 6");
+Console.WriteLine("Демонстрация работы проекта");
+double x = Functions.GradusToRadian(90);
+Console.WriteLine("PI/" + x);
+int xyz = 2;
+int zyx = 5;
+double y = Functions.AToB(xyz, zyx);
+Console.WriteLine(y);
+double z = Functions.Azimut(50);
+Console.WriteLine(z);
+Console.WriteLine("Км --> Мили");
+Console.WriteLine(Functions.ConvertToMili(10));
+Console.WriteLine("Мили --> Км");
+Console.WriteLine(Functions.ConvertToKm(10));
+Console.WriteLine("Гектар --> Акр");
+Console.WriteLine(Functions.ConvertToAkr(10));
+Console.WriteLine("Акр --> Гектар");
+Console.WriteLine(Functions.ConvertToGektar(10));
+Console.WriteLine("Метр --> Футы");
+Console.WriteLine(Functions.ConvertToFoot(10));
+Console.WriteLine("Футы --> Метр");
+Console.WriteLine(Functions.ConvertToMetr(10));
